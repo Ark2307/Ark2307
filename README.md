@@ -4,9 +4,10 @@
 ## Hi 👋, 
 I'm Aryan Khandelwal  👨‍💻 , 
 
-- 💻 ~Noobie~ Competitive Programmer 
-- 🌱 Currently learning Javascript
-- 💬 Ask me about: Sports and Algorithms
+- 💻 Competitive Programmer 
+- 💻 Frontend Developer
+- 🌱 Currently learning Full stack Web Development
+- 💬 Ask me about: Sports , Algorithms and Frontend Development
 - ⚡ Languages: C++ , Java , Javascript
-- ⚡ Framework : ReactJS
+- ⚡ Framework : ReactJS , Next.js , Django-rest-framework , Django , express
 - 🎓 Sophomore at MNNIT Allahabad , Computer Science and Engineering
