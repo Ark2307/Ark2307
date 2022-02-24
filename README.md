@@ -10,4 +10,4 @@ I'm Aryan Khandelwal  👨‍💻 ,
 - 💬 Ask me about: Sports , Algorithms and Frontend Development
 - ⚡ Languages: C++ , Java , Javascript
 - ⚡ Framework : ReactJS , Next.js , Django-rest-framework , Django , express
-- 🎓 Sophomore at MNNIT Allahabad , Computer Science and Engineering
+- 🎓 Pre-Final-Year at MNNIT Allahabad , Computer Science and Engineering
