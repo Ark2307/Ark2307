@@ -93,8 +93,7 @@
 ## 📊 Github Stats
 
 
-<a href="https://github.com/Ark2307">
-  <img height="180em" width="50%" src="https://github-readme-stats.vercel.app/api?username=Ark2307&theme=radical&show_icons=true&count_private=true&include_all_commits=true" />
+<a href="https://github.com/anuraghazra/github-readme-stats"><img alt="Aryan's Github Stats" src="https://github-readme-stats.vercel.app/api?username=Ark2307&show_icons=true&count_private=true&theme=algolia" height="192px"/></a>
   <img height="180em" width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ark2307&theme=radical&layout=compact" />
 </a>
 
