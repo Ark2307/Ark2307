@@ -1,0 +1,191 @@
+<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+
+    <style>
+      .title { font: 600 18px monospace; fill: #58A6FF; }
+      .line  { font: 500 15px monospace; fill: #7CC7FF; }
+      .dim   { font: 500 15px monospace; fill: #3B82F6; opacity: 0.55; }
+      .small { font: 500 13px monospace; fill: #8B949E; }
+
+      @keyframes blink {
+        0%, 45% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes type1 {
+        0%, 8% { opacity: 0.25; }
+        12%, 92% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @keyframes type2 {
+        0%, 18% { opacity: 0.25; }
+        24%, 92% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @keyframes type3 {
+        0%, 30% { opacity: 0.25; }
+        36%, 92% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @keyframes type4 {
+        0%, 42% { opacity: 0.25; }
+        48%, 92% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @keyframes type5 {
+        0%, 54% { opacity: 0.25; }
+        60%, 92% { opacity: 1; }
+        100% { opacity: 0.25; }
+      }
+
+      @keyframes floaty {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+
+      @keyframes cursorBlink {
+        0%, 45% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes pacmanMove {
+        0%   { transform: translateX(0px) scaleX(1); }
+        44%  { transform: translateX(290px) scaleX(1); }
+        50%  { transform: translateX(320px) scaleX(-1); }
+        94%  { transform: translateX(0px) scaleX(-1); }
+        100% { transform: translateX(0px) scaleX(1); }
+      }
+
+      @keyframes mouthTop {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(28deg); }
+      }
+
+      @keyframes mouthBottom {
+        0%, 100% { transform: rotate(0deg); }
+        50% { transform: rotate(-28deg); }
+      }
+
+      @keyframes dot1 {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        14%, 20% { opacity: 0; transform: scale(0.1); }
+      }
+
+      @keyframes dot2 {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        28%, 34% { opacity: 0; transform: scale(0.1); }
+      }
+
+      @keyframes dot3 {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        42%, 48% { opacity: 0; transform: scale(0.1); }
+      }
+
+      @keyframes dot4 {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        56%, 62% { opacity: 0; transform: scale(0.1); }
+      }
+
+      @keyframes dot5 {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        70%, 76% { opacity: 0; transform: scale(0.1); }
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.45; }
+      }
+
+      #line1 { animation: type1 6s infinite; }
+      #line2 { animation: type2 6s infinite; }
+      #line3 { animation: type3 6s infinite; }
+      #line4 { animation: type4 6s infinite; }
+      #line5 { animation: type5 6s infinite; }
+
+      #pacman { animation: pacmanMove 7s linear infinite; transform-origin: center; }
+      #mouth-top { animation: mouthTop 0.22s ease-in-out infinite; transform-origin: 0px 0px; }
+      #mouth-bottom { animation: mouthBottom 0.22s ease-in-out infinite; transform-origin: 0px 0px; }
+
+      #dot-1 { animation: dot1 7s linear infinite; transform-origin: center; }
+      #dot-2 { animation: dot2 7s linear infinite; transform-origin: center; }
+      #dot-3 { animation: dot3 7s linear infinite; transform-origin: center; }
+      #dot-4 { animation: dot4 7s linear infinite; transform-origin: center; }
+      #dot-5 { animation: dot5 7s linear infinite; transform-origin: center; }
+
+      #cursor { animation: cursorBlink 0.9s infinite; }
+      #avatar { animation: floaty 3s ease-in-out infinite; }
+      #play { animation: blink 1.6s infinite; }
+      #status-dot { animation: pulse 1.3s infinite; }
+    </style>
+  </defs>
+
+  <!-- Outer card -->
+  <rect x="8" y="8" width="884" height="224" rx="18" fill="url(#bg)" stroke="#30363D" stroke-width="2"/>
+
+  <!-- Window controls -->
+  <circle cx="36" cy="34" r="7" fill="#FF5F56"/>
+  <circle cx="60" cy="34" r="7" fill="#FFBD2E"/>
+  <circle cx="84" cy="34" r="7" fill="#27C93F"/>
+
+  <!-- Terminal area -->
+  <rect x="28" y="52" width="844" height="154" rx="14" fill="#09111D" stroke="#1F2937"/>
+
+  <!-- Left text block -->
+  <text x="54" y="92" class="title">~/about-me</text>
+
+  <text id="line1" x="54" y="122" class="line">🚀 design scalable systems</text>
+  <text id="line2" x="54" y="148" class="line">📦 build products that ship</text>
+  <text id="line3" x="54" y="174" class="line">☕ transform coffee into clean code</text>
+  <text id="line4" x="54" y="200" class="dim">🔍 bug hunter by day, builder by night</text>
+  <text id="line5" x="54" y="226" class="line">🔄 keep learning, keep iterating</text>
+
+  <!-- Pacman lane -->
+  <g>
+    <line x1="250" y1="168" x2="585" y2="168" stroke="#1E293B" stroke-width="2" stroke-dasharray="6 8"/>
+
+    <circle id="dot-1" cx="320" cy="168" r="5" fill="#FFB86C"/>
+    <circle id="dot-2" cx="385" cy="168" r="5" fill="#FFB86C"/>
+    <circle id="dot-3" cx="450" cy="168" r="5" fill="#FFB86C"/>
+    <circle id="dot-4" cx="515" cy="168" r="5" fill="#FFB86C"/>
+    <circle id="dot-5" cx="580" cy="168" r="5" fill="#FFB86C"/>
+
+    <g id="pacman" transform="translate(270 168)">
+      <g>
+        <path id="mouth-top" d="M0,0 L22,-12 A22,22 0 0,0 22,12 Z" fill="#F1FA8C"/>
+        <path id="mouth-bottom" d="M0,0 L22,12 A22,22 0 0,1 22,-12 Z" fill="#F1FA8C"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right side illustration -->
+  <g id="avatar" transform="translate(690 76)">
+    <!-- monitor -->
+    <rect x="18" y="26" width="110" height="66" rx="8" fill="#21262D" stroke="#30363D"/>
+    <rect x="38" y="42" width="70" height="34" rx="4" fill="#1F6FEB" opacity="0.9"/>
+    <path id="play" d="M92 49 L92 69 L108 59 Z" fill="#58A6FF"/>
+    <line x1="74" y1="92" x2="74" y2="112" stroke="#30363D" stroke-width="6"/>
+    <line x1="48" y1="112" x2="100" y2="112" stroke="#30363D" stroke-width="4"/>
+
+    <!-- hair -->
+    <path d="M34,60 Q28,38 50,28 Q60,14 80,32 Q94,44 84,62 Z" fill="#F0883E" opacity="0.95"/>
+    <!-- face -->
+    <circle cx="68" cy="58" r="16" fill="#C9D1D9"/>
+    <!-- body -->
+    <path d="M53,86 Q68,66 80,86 L84,108 L48,108 Z" fill="#FF79C6"/>
+    <!-- smile -->
+    <path d="M58 58 Q68 66 78 58" stroke="#0D1117" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- bottom status -->
+  <text x="670" y="205" class="small">shipping ideas → production</text>
+  <rect id="cursor" x="820" y="191" width="10" height="20" rx="2" fill="#50FA7B"/>
+  <circle id="status-dot" cx="645" cy="199" r="6" fill="#22C55E"/>
+</svg>
