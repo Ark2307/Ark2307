@@ -20,7 +20,7 @@ I enjoy building systems at the intersection of **product, scale, reliability, a
 ---
 
 <div align="center">
-   <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500">
+   <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="750">
 </div>
 
 ## Impact at Akto
